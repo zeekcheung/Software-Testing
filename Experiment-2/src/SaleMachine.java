@@ -35,7 +35,7 @@ public class SaleMachine {
                 } else if (drink.equals(type[1])) {
                     orangeNum--;    // l
                 } // else return answer[4]; // FIXME: 测试三：购买啤酒、橙汁之外的饮料应该报“指令错误”
-//                return answer[2] + drink;  // FIXME：测试一：并且应该直接返回
+                return answer[2] + drink;  // FIXME：测试一：并且应该直接返回
             }
             result = answer[4]; // m  // FIXME: 测试二：这条语句不可能运行，应该删掉
         } // else result = "错误指令！"; // FIXME: 测试三：饮料类型和付钱金额不合法应该报错
